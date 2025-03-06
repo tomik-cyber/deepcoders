@@ -1,0 +1,31 @@
+.freelancers {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .freelancer-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .freelancer-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .freelancer-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .freelancer-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ffcc00;
+  }
+  
